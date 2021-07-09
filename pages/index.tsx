@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import AddyContracts from './addy/index';
 
 export default function Home() {
   return (
@@ -23,6 +24,10 @@ export default function Home() {
           <Link href="/charts">
             <a>Checkout the charts</a>
           </Link>
+        </div>
+
+        <div className={styles.grid}>
+          <AddyContracts />
         </div>
       </main>
     </div>
