@@ -1,4 +1,5 @@
 const { accounts, contract } = require('@openzeppelin/test-environment');
+const { deployProxy, upgradeProxy } = require('@openzeppelin/truffle-upgrades');
 const HelloWorld = contract.fromArtifact("HelloWorld");
 // const {
 //     BN,           // Big Number support

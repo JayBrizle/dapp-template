@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.8.0",
     "@openzeppelin/contract-loader": "^0.6.2",
     "@openzeppelin/contracts": "^4.1.0",
     "@openzeppelin/test-environment": "^0.1.9",
